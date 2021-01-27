@@ -12,12 +12,12 @@ let playertwoBtn = document.querySelector("#playertwoBtn");
 // console.log(playerTwo); 
 // console.log(leadPlayer); 
 // console.log(clickPlayer); 
-console.log(playeroneBtn);
-console.log(playertwoBtn);
+// console.log(playeroneBtn);
+// console.log(playertwoBtn);
 
-// function start() {
-// let 
-// }
+function addone() {
+
+}
 
 
 // function tie() {
