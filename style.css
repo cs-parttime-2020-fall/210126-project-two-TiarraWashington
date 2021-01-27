@@ -4,9 +4,26 @@ body {
     text-align: center;
 }
 
-.card {
+#container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 2%;
 }
 
+#container > div {
+    margin:2%;
+    padding: 2%;
+}
+
+#playerOne {
+    grid-column: 1;
+    grid-row: 1-2;
+}
+
+#playerTwo {
+    grid-column:
+    grid-row:
+}
+
+#leadPlayer {
+    grid-column:
+    grid-row:
+}
