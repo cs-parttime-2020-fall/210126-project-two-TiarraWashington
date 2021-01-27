@@ -10,8 +10,14 @@ let clickPlayer = document.querySelector("#clickPlayer")
 // console.log(leadPlayer); 
 // console.log(clickPlayer); 
 
-function() {
-    
+function start() {
+let 
 }
+
+
+function tie() {
+    if ()
+}
+
 
 // .addEventListener("click",)
