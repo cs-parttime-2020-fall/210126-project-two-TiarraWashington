@@ -35,7 +35,7 @@ If a player chooses a different color option the color of that counter should be
 ### Student Defined Requirements
 
 *List the requirements/steps here based on the content section above. Include as many detailed/specific items as you feel are necessary*
-- created four elements/placeholders in grid display
+- created four elements/placeholders using grid display
 - create buttons for elements/placeholdet for player 1 and 2 name and update score 
 - grid displayer for all elements nested in the container div
 - click player to start placeholder
