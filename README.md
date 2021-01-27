@@ -35,13 +35,13 @@ If a player chooses a different color option the color of that counter should be
 ### Student Defined Requirements
 
 *List the requirements/steps here based on the content section above. Include as many detailed/specific items as you feel are necessary*
-- create three elements/placeholders in grid display
+- created four elements/placeholders in grid display
 - create buttons for elements/placeholdet for player 1 and 2 name and update score 
 - grid displayer for all elements nested in the container div
 - click player to start placeholder
 - use bootstrap to style player buttons
 - id to container element to select grid row and column
-
+- applied each element/placement to select each using querySelector
 
 When a button is clicked in either player element the score of that element should increase by one.
  The player listed in the lead should change as one player's score is higher than the other. 

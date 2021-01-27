@@ -15,15 +15,20 @@ body {
 
 #playerOne {
     grid-column: 1;
-    grid-row: 1-2;
+    grid-row: 1-5;
 }
 
 #playerTwo {
-    grid-column:
-    grid-row:
+    grid-column: 3;
+    grid-row: 1-2;
 }
 
 #leadPlayer {
-    grid-column:
-    grid-row:
+    grid-column: 1-4;
+    grid-row: 3;
+}
+
+#clickPlayer {
+    grid-column: 2;
+    grid-row: 2;
 }
