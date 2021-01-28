@@ -24,7 +24,7 @@ let playertwo = document.querySelector("#playertwo");
 
 let score1 = 0;
 let score2 = 0;
-let winningScore = 10;
+
 
 // create function to add 1 when player is clicked 
 function addOne() {
@@ -32,14 +32,16 @@ function addOne() {
     // console.log(score1);
     playerone.innerHTML = score1;
     updateleadPlayer();
-    winningScore = 10;
+    winningScore();
+    // restartGame();
 }
 
 function addTwo() {
     score2++;
     playertwo.innerHTML = score2;
     updateleadPlayer();
-    winningScore = 10;
+    winningScore();
+    // restartGame();
 }
 
 function updateleadPlayer() {
@@ -48,21 +50,29 @@ function updateleadPlayer() {
         leadPlayer.innerHTML = "TIED"
         console.log("TIED");
     } else if (score1 > score2) {
-        leadPlayer.innerHTML = "Player one in the lead"
-        console.log("Player one in the lead");
+        leadPlayer.innerHTML = "Player 1 in the lead"
+        console.log("Player 1 in the lead");
     } else if (score1 < score2) {
-        leadPlayer.innerHTML = "Player two is in the lead"
-        console.log("Player two is in the lead");
+        leadPlayer.innerHTML = "Player 2 is in the lead"
+        console.log("Player 2 is in the lead");
     }
-    function winningScore () {
-}  if (score1 == "winningScore") {
-    leadPlayer.innerHTML = "winningScore"
-    alert("Player one is in the lead");
-} else if (score2 == "10") {
-    leadPlayer.innerHTML = "winningScore"
-    alert("Player two is in the lead");
 }
 
+function winningScore() {
+    if (score1 == "10") {
+        leadPlayer.innerHTML = "winningScore"
+        alert("Player 1 is in the lead");
+    } else if (score2 == "10") {
+        leadPlayer.innerHTML = "winningScore"
+        alert("Player 2 is in the lead");
+    }
+}
 
+// function restartGame () {
+//     if (score1 == "10" && score2 == "10"){
+//         restartGame();
+//     }
+    
+// }
 playeroneBtn.addEventListener("click", addOne);
 playertwoBtn.addEventListener("click", addTwo);
