@@ -24,26 +24,27 @@ let playertwo = document.querySelector("#playertwo");
 
 let score1 = 0;
 let score2 = 0;
-
 // create function to add 1 when player is clicked 
 function addOne() {
     score1++;
     // console.log(score1);
     playerone.innerHTML = score1;
-} 
-
-function  addTwo() {
-    score2++;
-    playertwo.innerHTML = score2;
+    updateleadPlayer();
 }
 
-// function updateleadPlayer() {
-//     if ()
-// }
+function addTwo() {
+    score2++;
+    playertwo.innerHTML = score2;
+    updateleadPlayer();
+}
 
-// function resetGame() {
-
-// }
+function updateleadPlayer() {
+    console.log(score1); console.log(score2);
+    if (score1 == score2) {
+        console.log("tied");
+    } else if (true) {
+    }
+}
 
 playeroneBtn.addEventListener("click", addOne);
 playertwoBtn.addEventListener("click", addTwo);
