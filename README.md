@@ -45,7 +45,19 @@ If a player chooses a different color option the color of that counter should be
 
 When a button is clicked in either player element the score of that element should increase by one.
  The player listed in the lead should change as one player's score is higher than the other. 
- If players have the same score "TIE" should be displayed in place of a player name. When either player reaches the number 10 the player in the lead should be alerted in the browsers and scores should clear, restarting the game.
+ If players have the same score "TIE" should be displayed in place of a player name. When either player reaches the number 10 the player in the lead should be alerted in the browsers and scores should clear, restarting the game
+
+### Steps
+
+- Create grid layout with placeholders
+- Add content to player one element : button, player name, score
+- Add content to player two element : button, player name, score
+- Add content to in the lead element : heading, placeholder lead player
+- Select required elements : player buttons, player scores, in the lead placeholder
+- When the player one button is clicked update the player one score : add one and update display
+- When the player two button is clicked update the player two score : add one and update display
+- When either player button is clicked update the lead player display to the player with a higher score
+- When either player score reaches 10 reset the game : set both player scores back to zero and set the lead player back to a placeholder
 
 
 ### Site URL
