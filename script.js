@@ -44,14 +44,13 @@ function updateleadPlayer() {
         leadPlayer.innerHTML = "tied"
         console.log("tied");
     } else if (score1 > score2) {
-
+        leadPlayer.innerHTML = "player one in the lead"
         console.log("player one in the lead");
     } else if (score1 < score2) {
-
+        leadPlayer.innerHTML = "player two is in the lead"
         console.log("player two is in the lead");
     }
 }
 
 playeroneBtn.addEventListener("click", addOne);
 playertwoBtn.addEventListener("click", addTwo);
-// updateleadPlayer.addEventListener("")
