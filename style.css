@@ -7,9 +7,9 @@ body {
 
 #container {
     display: grid;
-    /* border: 2px solid black; added border to check element/placeholder location */
-    grid-template-columns: 3 2fr
-    
+    grid-template-columns: repeat(3, 2fr) ;
+    /* added border to check element/placeholder location */
+    border: 2px solid black; 
 }
 
 #container > div {
@@ -17,23 +17,14 @@ body {
     margin: 2%;
 }
 
-/* #playerOne {
-    grid-column: 
-    grid-row: 
-}
-
-#playerTwo {
-    grid-column: 3;
-    grid-row: 
-}
 
 #clickPlayer {
-    grid-column: 
-    grid-row: 
+    align-items: center;
+    border: 2px solid black;
 }
 
+
 #leadPlayer {
-    grid-column: 
-    grid-row: 
-} */
+    border: 2px solid black;
+}
 

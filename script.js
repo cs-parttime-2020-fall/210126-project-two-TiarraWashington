@@ -25,7 +25,6 @@ let playertwo = document.querySelector("#playertwo");
 let score1 = 0;
 let score2 = 0;
 
-
 // create function to add 1 when player is clicked 
 function addOne() {
     score1++;
@@ -33,7 +32,6 @@ function addOne() {
     playerone.innerHTML = score1;
     updateleadPlayer();
     winningScore();
-    // restartGame();
 }
 
 function addTwo() {
@@ -41,7 +39,6 @@ function addTwo() {
     playertwo.innerHTML = score2;
     updateleadPlayer();
     winningScore();
-    // restartGame();
 }
 
 function updateleadPlayer() {
@@ -60,19 +57,22 @@ function updateleadPlayer() {
 
 function winningScore() {
     if (score1 == "10") {
-        leadPlayer.innerHTML = "winningScore"
+        leadPlayer.innerHTML = "Player 1 is in the lead"
         alert("Player 1 is in the lead");
     } else if (score2 == "10") {
-        leadPlayer.innerHTML = "winningScore"
+        leadPlayer.innerHTML = "Player 2 is in the lead"
         alert("Player 2 is in the lead");
+    }
+
+    // stuck on reset
+    function restartGame() {
+        if (score1 == "10") {
+            leadPlayer.innerHTML = "0"
+        } else if (score2 = "10") {
+            leadPlayer.innerHTML = "0"
+        }
     }
 }
 
-// function restartGame () {
-//     if (score1 == "10" && score2 == "10"){
-//         restartGame();
-//     }
-    
-// }
 playeroneBtn.addEventListener("click", addOne);
 playertwoBtn.addEventListener("click", addTwo);
