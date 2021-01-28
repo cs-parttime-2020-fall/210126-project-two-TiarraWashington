@@ -41,10 +41,13 @@ function addTwo() {
 function updateleadPlayer() {
     console.log(score1); console.log(score2);
     if (score1 == score2) {
+        leadPlayer.innerHTML = "tied"
         console.log("tied");
     } else if (score1 > score2) {
+
         console.log("player one in the lead");
-    } else  (score1 < score2); {
+    } else if (score1 < score2) {
+
         console.log("player two is in the lead");
     }
 }
