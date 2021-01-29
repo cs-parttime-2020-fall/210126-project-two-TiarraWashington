@@ -62,6 +62,5 @@ When a button is clicked in either player element the score of that element shou
 
 ### Site URL
 
-*Add the deployed project URL after walking through the hosting steps in class*
-
+https://cs-parttime-2020-fall.github.io/210126-project-two-TiarraWashington/
 
