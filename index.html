@@ -11,45 +11,45 @@
 </head>
 <body>
   <h1>21 01 26 HTML CSS JS Project Two</h1>
+  <!-- created container div for game -->
+  <!-- used divs to separate the elemets in my clicking game -->
   <div id="container">
-    
+    <!-- selected card for player one element/placeholder -->
     <div class="card" style="width: 18rem;">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body">
         <h5 id="playerOne" class="card-title">Player 1</h5>
         <h5><span id="playerone">0</span></h5>
-        <button id="playeroneBtn" class="btn btn-danger"></button>
+        <!-- used bootstrap to style score card for player one -->
+        <button id="playeroneBtn" class="btn btn-danger">Player 1 </button>
       </div>
     </div>
-
+<!-- selected card for player two element/placeholder -->
     <div class="card" style="width: 18rem;">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body">
         <h5 id="playerTwo" class="card-title">Player 2</h5>
         <h5><span id="playertwo">0</span></h5>
-        <button id="playertwoBtn" class="btn btn-success"></button>
+        <!-- used bootstrap to style button for player two  -->
+        <button id="playertwoBtn" class="btn btn-success">Player 2 </button>
       </div>
     </div>
-
+<!-- created div to set placeholder for click player to start element -->
     <div>
       <h5 id="clickPlayer">Click player button to start</h5>
     </div>
-
+<!-- selected card for lead player eleement -->
     <div> 
       <div class="card-body">
         <h5><span id="leadPlayer2">Lead Player</span></h5> 
     <h5 id="leadPlayer" class="card-title">Lead Player</h5>
   </div>
-
+<!-- selected div for winning score element -->
     <div>
       <h5 id="winningScore" value="updatewinningScore"></h5>
     </div>
-
-    <div>
-      <h5 id="restartGame" value="restartGame"></h5>
-    </div>
-
   </div>
+  
   <script src="./script.js"></script>
 </body>
 

@@ -3,28 +3,24 @@ body {
     font-family: sans-serif;
     text-align: center;
 }
-
-
+/* added container id to game and applied grid display */
 #container {
     display: grid;
-    grid-template-columns: repeat(3, 2fr) ;
+    grid-template-columns: repeat(3,  1fr);
     /* added border to check element/placeholder location */
-    border: 2px solid black; 
+    border: 2px solid black;
+    margin: 2%;
+    padding: 2%;
 }
-
+/* applied padding for space inside container div, margin for space outside the div, and border to the container element nested inside the div  */
 #container > div {
     padding: 2%;
     margin: 2%;
-}
-
-
-#clickPlayer {
-    align-items: center;
     border: 2px solid black;
 }
-
-
+/* applied border to lead player element for styling */
 #leadPlayer {
     border: 2px solid black;
 }
+
 
